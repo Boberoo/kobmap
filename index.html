@@ -35,7 +35,10 @@
 	}).addTo(mymap);
 
 	L.marker([-29.868621, 31.050354]).addTo(mymap)
-		.bindPopup("<b>Finish!</b><br />Finish at DUC.").openPopup();
+		.bindPopup("<b>Finish</b><br />Finish at DUC.").openPopup();
+	
+	L.marker([-29.89948, 31.007162]).addTo(mymap)
+		.bindPopup("<b>Start</b><br />Start at old Stella Canoe Club.").openPopup();
 
 	L.circle([-29.835224, 31.038145], 50, {
 		color: 'red',
